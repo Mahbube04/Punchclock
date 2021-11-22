@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>registration</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js" type="application/javascript"></script>
+</head>
+
+<body>
+    <h2>Registrieren</h2>
+    <p>Bitte geben Sie Ihre Daten ein, um ein Konto zu erstellen.</p>
+
+    <form action="" method="post">
+        <div class="form-group">
+            <label>Dein Benutzername</label>
+            <input type="username" name="benutzername" class="form-control" placeholder="Benutzername"><br>
+            <label>Deine Emailadresse</label>
+            <input type="email" name="email" class="form-control" placeholder="E-Mail"><br>
+            <label>Passwort</label>
+            <input type="password" name="passwort" class="form-control" placeholder="Passwort"><br>
+            <label>Passwort wiederholen</label>
+            <input type="password" name="passwort_wiederholen" class="form-control" placeholder="Passwort"><br>
+            <input type="submit" name="absenden" class="btn btn-primary" value="Registrieren">
+            <p>Sie haben bereits einen Account?</p>
+            <button onclick="window.location.href='../Index.php';" type="button" class="btn btn-outline-primary my-2 my-sm-0"> Abbrechen </button>
+            <a href="login.html">Hier anmelden</a>
+        </div>
+    </form>
+</body>
+
+</html>
